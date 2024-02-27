@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+    <div id="calcbg" class="calcbgDesign">
+        <input type="text" id="currentText" class="textBox" disabled>
+        <input type="button" value="C" id="clear" class="clear">
+        <br>
+        <input type="button" value="1" class="btn" onclick="clickEvent(this)">
+        <input type="button" value="2" class="btn" onclick="clickEvent(this)">
+        <input type="button" value="3" class="btn" onclick="clickEvent(this)">
+        <input type="button" value="÷" id="division" class="btn" >
+        <br>
+        <input type="button" value="4" class="btn" onclick="clickEvent(this)">
+        <input type="button" value="5" class="btn" onclick="clickEvent(this)">
+        <input type="button" value="6" class="btn" onclick="clickEvent(this)">
+        <input type="button" value="×" id="mult" class="btn">
+        <br>
+        <input type="button" value="7" class="btn" onclick="clickEvent(this)">
+        <input type="button" value="8" class="btn" onclick="clickEvent(this)">
+        <input type="button" value="9" class="btn" onclick="clickEvent(this)">
+        <input type="button" value="-" id="subtration" class="btn">
+        <br>
+        <input type="button" value="." id="point" class="btn">
+        <input type="button" value="0" class="btn0" onclick="clickEvent(this)">
+        <input type="button" value="=" id="qual" class="btnCal">
+        <input type="button" value="+" id="add" class="btn">
+    </div>
+</body>
+</html>
